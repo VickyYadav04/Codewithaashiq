@@ -1,0 +1,24 @@
+<!-- http://api.weatherapi.com/v1/current.json?key=45ae1d82e2d7488291a171057252202&q=London&aqi=yes  This is my API key -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather App</h1>
+        <div class="input-container">
+            <input type="text" id="location" placeholder="Enter location">
+            <button onclick="getWeather()">Get Weather</button>
+        </div>
+        <div id="weather-info" class="weather-info">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
